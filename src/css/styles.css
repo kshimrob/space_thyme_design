@@ -1,0 +1,107 @@
+/* Fonts */
+@font-face {
+  font-family: 'action_manregular';
+  src: url("../assets/Action_Man-webfont.eot");
+  src: url("../assets/Action_Man-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/Action_Man-webfont.woff2") format("woff2"), url("../assets/Action_Man-webfont.woff") format("woff"), url("../assets/Action_Man-webfont.ttf") format("truetype"), url("../assets/Action_Man-webfont.svg#action_manregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Variables */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 100%;
+  font-family: "action_manregular", Helvetica, sans-serif;
+  line-height: 1.5rem; }
+
+h1 {
+  text-indent: -9999px;
+  background: url(../assets/landing1.svg) 0/auto 360px no-repeat;
+  margin: 0 auto;
+  height: 400px;
+  width: 280px; }
+
+h1:hover {
+  background-position: -519px; }
+
+#main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+p {
+  max-width: 500px;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center; }
+
+a {
+  color: #ef32d9;
+  /*-webkit-transition: .2s;*/
+  position: relative; }
+
+a:hover {
+  color: #89fffd; }
+
+@media (-webkit-min-device-pixel-ratio: 0) {
+  a {
+    background-color: #ef32d9;
+    background-image: -webkit-linear-gradient(left, #ef32d9 0%, #89fffd 50%, #ef32d9 100%);
+    background-position: 0;
+    background-size: 200% 200%;
+    border-bottom: 1px dashed #ef32d9;
+    color: transparent;
+    -webkit-transition: all 0.35s;
+    -webkit-background-clip: text; }
+  a:hover {
+    background-position: 75% 0;
+    color: transparent; } }
